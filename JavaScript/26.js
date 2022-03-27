@@ -21,4 +21,5 @@ console.log(Array.isArray(fruits));
 console.log(Array.isArray(obj));
 
 
+
 // array indexing 
