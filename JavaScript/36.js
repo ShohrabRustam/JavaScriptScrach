@@ -8,7 +8,7 @@
 
 // const person = {name:"Harshit",age:22};
 const person = {
-    name: "harshit",
+    name: "Rustam",
     age: 22,
     hobbies: ["guitar", "sleeping", "listening music"]
 }
