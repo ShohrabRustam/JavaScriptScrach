@@ -1,3 +1,5 @@
+"use strict"
+
 var name = "Shohrab Rustam"
 
 var Name= "Shohrab Rustam"
