@@ -7,8 +7,11 @@ let array1 = ["item1", "item2"];
 // let array2 = array1.slice(0).concat(["item3", "item4"]);
 // let array2 = [].concat(array1,["item3", "item4"]);
 // new way 
-// spread operator
+
 let oneMoreArray = ["item3", "item4"]
+
+
+// spread operator
 let array2 = [...array1, ...oneMoreArray];
 
 array1.push("item3");
