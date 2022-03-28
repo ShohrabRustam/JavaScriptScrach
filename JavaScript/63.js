@@ -5,8 +5,8 @@ const numbers = [3,5,11,9];
 // kya ek bhi number esa hai jo even hai 
 // true 
 
-// const ans = numbers.some((number)=>number%2===0);
-// console.log(ans);
+const answer = numbers.some((number)=>number%2===0);
+console.log(answer);
 
 const userCart = [
     {productId: 1, productName: "mobile", price: 12000},
