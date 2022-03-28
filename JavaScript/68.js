@@ -21,9 +21,9 @@
 
 // Called Object literals
 const person = {
-    firstName : "Rustam",
+    firstName: "Rustam",
     age: 7,
-    1:"one"
+    1: "one"
 }
 // console.log(person.firstName);
 // console.log(person["firstName"]);
@@ -51,16 +51,19 @@ const person = {
 
 const person1 = {
     id: 1,
-    firstName: "harshit"
+    firstName: "Rustam"
 }
+
 const person2 = {
     id: 2,
-    firstName: "harshta"
+    firstName: "Shohrab"
 }
 
 const extraInfo = new Map();
-extraInfo.set(person1, {age: 8, gender: "male"});
-extraInfo.set(person2, {age: 9, gender: "female"});
+
+extraInfo.set(person1, { age: 8, gender: "male" });
+
+extraInfo.set(person2, { age: 9, gender: "female" });
 // console.log(userInfo);
 console.log(person1.id);
 console.log(extraInfo.get(person1).gender);
