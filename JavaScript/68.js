@@ -66,5 +66,6 @@ extraInfo.set(person1, { age: 8, gender: "male" });
 extraInfo.set(person2, { age: 9, gender: "female" });
 // console.log(userInfo);
 console.log(person1.id);
+console.log(extraInfo.keys());
 console.log(extraInfo.get(person1).gender);
 console.log(extraInfo.get(person2).gender);
