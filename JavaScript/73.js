@@ -11,9 +11,10 @@ const user2 = {
     
 }
 
+//call 
 user1.about.call(user2);
 
 // apply
-about.apply(user1, ["guitar", "bach"]);
-// const func = about.bind(user2, "guitar", "bach");
-// func();
+// about.apply(user1, ["guitar", "bach"]);
+const func = about.bind(user2, "guitar", "bach");
+func();
