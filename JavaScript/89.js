@@ -33,9 +33,9 @@ class Dog extends Animal{
     }
 } 
 // object / instance 
-// const tommy = new Dog("tommy", 3,45);
-// console.log(tommy.run());
-// console.log(tommy.eat());
+const tommy = new Dog("tommy", 3,45);
+console.log(tommy.run());
+console.log(tommy.eat());
 
 const animal1 = new Animal('sheru', 2);
 console.log(animal1.eat());
