@@ -32,3 +32,10 @@ hello.prototype.sing = function(){
 console.log(hello.prototype.sing());
 
 console.log ("only function provide the proto type property ");
+
+hello.prototype.abc = "abc";
+hello.prototype.xyz = "xyz";
+hello.prototype.sing = function(){
+    console.log ("Hello I am singing ");
+    
+};
