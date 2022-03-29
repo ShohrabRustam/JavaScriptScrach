@@ -9,14 +9,17 @@ class Person{
         return 'this is person class';
     }
     static desc = "static property";
+
     get fullName(){
         return `${this.firstName} ${this.lastName}`
     }
+
     set fullName(fullName){
         const [firstName, lastName] = fullName.split(" ");
         this.firstName = firstName;
         this.lastName = lastName;
     }
+    
     eat(){
         return `${this.firstName} is eating`;
     }
