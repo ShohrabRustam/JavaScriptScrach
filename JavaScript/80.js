@@ -9,6 +9,7 @@ const obj1 = {
 
 // [[prototype]]
 
+// both are same 
 // __proto__ , [[prototype]]
 
 
