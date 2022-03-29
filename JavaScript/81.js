@@ -30,3 +30,5 @@ hello.prototype.sing = function(){
 };
 
 console.log(hello.prototype.sing());
+
+console.log ("only function provide the proto type property ");
