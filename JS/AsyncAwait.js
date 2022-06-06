@@ -28,4 +28,7 @@ finally{
     console.log("Run code Any way!");
 }
 }
-order();
+order()
+.then(() => {
+    console.log("Then condition working successfully");
+})
