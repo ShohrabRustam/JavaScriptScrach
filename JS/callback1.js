@@ -28,9 +28,24 @@ let order = (Fruit_name,call_production)=>{
 }
 let production=()=>{
     setTimeout(()=>{
-        console.log("Production has started ");
+        console.log("Production has started ")
         setTimeout(()=>{
-            console.log(`The fruits has been chopped`);
+            console.log(`The fruits has been chopped`)
+            setTimeout(()=>{
+                console.log(`${stocks.Liquids[0]} and ${stocks.Liquids[1]} was Added `)
+                setTimeout(()=>{
+                    console.log(`Start Machine `);
+                    setTimeout(()=>{
+                        console.log(`${stocks.holder[0]} was selected `);
+                        setTimeout(()=>{
+                            console.log(`${stocks.toppings[0]} was added as toppings `)
+                            setTimeout(()=>{
+                                console.log("Ice Cream Serve !!")
+                            },2000)
+                        },3000)
+                    },2000)
+                },1000)
+            },1000)
         },2000)
     },0000)
 }
