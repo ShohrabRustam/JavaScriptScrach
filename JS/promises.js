@@ -47,3 +47,4 @@ order(2000, () => console.log(`${stocks.Fruits[0]}` + ` was selected from stocks
     .catch(()=>{
         console.log("Customer Left !"); 
     })
+.finally(()=>console.log("Day Ended !! ,Our shop is Closed!"))
