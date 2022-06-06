@@ -29,6 +29,9 @@ let order = (Fruit_name,call_production)=>{
 let production=()=>{
     setTimeout(()=>{
         console.log("Production has started ");
+        setTimeout(()=>{
+            console.log(`The fruits has been chopped`);
+        },2000)
     },0000)
 }
 
