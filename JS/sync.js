@@ -1,3 +1,4 @@
+// example of the synchronization  in js /
 console.log(' I ')
 console.log(' eat ')
 console.log(' ice cream ')
